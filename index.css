@@ -1,0 +1,59 @@
+.maindiv{
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(131, 127, 127);
+    
+    
+}
+
+.leftdiv{
+    height: 15rem;
+    width: 2rem;
+    background-color: burlywood;
+    
+    
+    
+
+    
+}
+
+.rightdiv{
+    
+    height: 15rem;
+    width: 11rem;
+    background-color: rgb(236, 203, 159);
+    margin: -2rem 0;
+    display: none;
+    
+    
+}
+i{
+    background-color: rgb(247, 171, 71);
+    width: 2rem;
+    height: 2rem;
+    
+}
+h3{
+    margin: 0;
+    background-color: rgb(247, 171, 71);
+    height: 2rem;
+    
+}
+
+li{
+    list-style: none;
+}
+
+/* HOVER KISMI */
+h3:hover .rightdiv {
+display: block;
+visibility: visible;
+
+}
+h3:hover .fa-greater-than {
+    visibility: hidden;
+
+    
+    }
+
+
